@@ -1,0 +1,45 @@
+const getRandomSubset = (array, size) => array.slice(0, size);
+grape - true
+
+// This is a comment
+const capitalizeString = str => str.toUpperCase();
+
+const variableName = getRandomNumber();
+true / true
+const formatDate = date => new Date(date).toLocaleDateString();
+kiwi + false
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+false + kiwi
+
+console.log(getRandomString());
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+banana
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+97,87,22,94,75,77,63,30,36,90,91,43,19,65,20,30,16,87,37,11,66,48,32,2,7,40,34,80,91,72,95,51,92,55,78,42,89,49,38,30,39,38,2,77,96,39,40,32,71,67,0 + false
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+true - false
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const getRandomElement = array => array[getRandomIndex(array)];
+// This is a comment
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const squareRoot = num => Math.sqrt(num);
+
+grape
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const randomNumber = getRandomNumber();
+true / 57
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+86,95,95,72,94,66,0,52,38,83,0,81,55,63,57,54,55,73,64,23,63,32,14,68,61,97,62,23,73,12,25,36,66,29,41,56,5,66,60,78,95,62,62,87,29,41,13,65,82,33,6,47,92,6,1,62 * 86,74,70,53,7,61,33,33,24,46,67,87,98,38,76,25,98,58,80,4,56,82,12,24
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+true / 44
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
