@@ -1,0 +1,53 @@
+43 + false
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+function addNumbers(a, b) { return a + b; }
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+false - false
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+92,11,66,73,45,60,7,18,21,96,26,83,67,74,65,27,26,88,91,54,40,85,4,38,41,1,72,65,9,50,94,75,92,54,39,57,29,88,35,91,26,18,23,33,22,71,47,0,23,71,57,48,68,3,94,97,66,8,61,35,26,49,79,8,6,11,46,35,75,97,5,55,6,77,33,20,1,76,47,82,39,44,11,97,5,81 / 59
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+0 / 78
+const squareRoot = num => Math.sqrt(num);
+grape
+
+const findLargestNumber = numbers => Math.max(...numbers);
+grape * apple
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+console.log(getRandomString());
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+apple
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+function addNumbers(a, b) { return a + b; }
+
+kiwi
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+class MyClass { constructor() { this.property = getRandomString(); } }
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+orange
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+banana
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+banana - 96,71,87,51,11,11,76,41,25,38
+const findSmallestNumber = numbers => Math.min(...numbers);
+apple - 24
+let result = performOperation(getRandomNumber(), getRandomNumber());
