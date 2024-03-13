@@ -1,0 +1,29 @@
+banana
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+29 - false
+console.log(getRandomString());
+88 - grape
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const multiply = (a, b) => a * b;
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+banana
+
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+78 - 27,54,18,19,12,86,17,17,34,5,33,83,58,26,70,13,3,77,48,42,40,12,42,59,3,88,32,65,91,21,58,71,37,41,90,26,12,86,58,42,96,12,58,76,61,31,78,80,94,95,59,4,32,98,92,87,0,96,68,32,11,96,86,24,17,32,5,33,82,83,86
+
+const capitalizeString = str => str.toUpperCase();
+apple - grape
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+30 - false
+const greet = name => `Hello, ${name}!`;
+
