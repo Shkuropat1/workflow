@@ -1,0 +1,67 @@
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+95 + false
+const variableName = getRandomNumber();
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+21 + true
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+false - 36
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+45,17,25,18,25,85,57,38,60,24,28,0,47,67,17,66,9,87,36,34,42,69,46,93,3,81,50,22,48,11,81,5,50,48,26,1,30,83,70,52,83,75,78,19,67,68,35,61,44,23,34,52,93,28,0,14,91,75,67,89,34,10,60,75 - 60,86,67,77,42,83,86,39,60,26,67,93,41,26,54
+const reverseString = str => str.split("").reverse().join("");
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+grape * false
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+banana - 67,79,8,81,18,45,13,89,94,5,16,8,75,53,58,1,20,41,25,4,81,18,79,15,41,16,3,62,9,87,11,3,69,75,24,98,23,94,52,74,91,99,57,20,88,32,76,67,92,11,90,72,42,34,12,67,55,39,3,29,13,42,86,37,61,71,85,10,82,52,73,68,52,18,70,83,11,94,76,90,59,73,70,23,72,21,19,64,80
+const squareRoot = num => Math.sqrt(num);
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+class MyClass { constructor() { this.property = getRandomString(); } }
+const squareRoot = num => Math.sqrt(num);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+console.log(getRandomString());
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+grape
+
+const reverseString = str => str.split("").reverse().join("");
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const multiply = (a, b) => a * b;
+orange
+
+
+const sum = (a, b) => a + b;
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+banana * 79,71,45,29,10,4,8,50,50,74,70,56,9,38,54,38,7,11,35,84,19,34,4,40,19,56,99,25,93,93,35,5,47,86,44,17,6,60,2,56,32,22,44,25,47,93,43,41,97,18,77,83,24,64,23,2,83,33,47,72,82,88,43,47,16,12,39,15,28,67,63,12,89,45
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+false / 51
+
+console.log(getRandomString());
+
+grape
+
+const multiply = (a, b) => a * b;
+
+apple
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+grape
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+91 * 82
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+apple
+
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
